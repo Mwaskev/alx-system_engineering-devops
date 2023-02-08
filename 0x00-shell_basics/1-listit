@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%sn\n" "$item"
+printf "%s\n" "$item"
