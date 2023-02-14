@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "BEGIN { printf \"%.2f\n\", $POWER/$DIVIDE }"
+echo "scale=2" | { echo "$POWER/$DIVIDE" | bc }
