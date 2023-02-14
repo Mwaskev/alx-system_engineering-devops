@@ -1,2 +1,2 @@
 #!/bin/bash
-awk "BEGIN { printf \"%.2f\n\", $POWER/$DIVIDE }"
+echo "BEGIN { printf \"%.2f\n\", $POWER/$DIVIDE }"
